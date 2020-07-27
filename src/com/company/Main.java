@@ -1,17 +1,14 @@
 package com.company;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import static com.company.NextGenerations.nextGeneration;
 import static com.company.PrintGrid.printGrid;
-import static com.company.Rules.rules;
 
 public class Main {
     //    private static int[][] grid =
-//            {{0, 0, 0},
+//                    {
+//                    {0, 0, 0},
 //                    {1, 1, 1},
-//                    {0, 0, 0}};
+//                    {0, 0, 0}
+//                    };
     //static grid variable
     private static int[][] grid =
             {       {1, 0, 0, 1},
@@ -57,7 +54,4 @@ public class Main {
         // returning sum
         return counter;
     }
-
-
-
 }
